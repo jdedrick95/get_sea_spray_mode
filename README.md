@@ -48,3 +48,7 @@ Methodology for this code is described in Dedrick et al. "Retrieval of the Sea S
 - **fail_flag**: flag value identifying reason for retrieval failure (0 = retrieval successful, 1 = scattering not available at all 3 wavelengths, 2 = no Mie scattering solutions below the error threshold, 3 = no Mie solutions that are within the joint probability 95th percentile that can be tested against the size distribution); row dimension: time
 
 - **retrieval_duration**: time to complete the retrieval (minutes); row dimension: time
+
+# test.m
+
+- test tex

@@ -10,7 +10,7 @@ This code applies a Mie inversion to retrieve lognormal fitting parameters of th
 
 - **bsca_std**: standard deviation of supermicron scattering coefficients (Mm-1) during temporal average; row dimension: time; column dimension: [450nm, 550nm, 700nm]
 
-- **bsca_inst_std**: instrument scattering error/uncertainty (%), single value
+- **bsca_inst_std**: instrument scattering error/uncertainty (%), single value (e.g. 5% [Frie and Bahreini, 2021])
 
 - **PNSD**: submicron particle size distribution (cm-3 µm-1); row dimension: concentration; column dimension: time
 
@@ -20,6 +20,6 @@ This code applies a Mie inversion to retrieve lognormal fitting parameters of th
 
 - **PNSD_std**: standard deviation of particle size distribution during temporal average; resolved at each size bin (cm-3 µm-1); row dimension: concentration; column dimension: time 
 
-- **PNSD_N_std**: Instrument concentration error/uncertainty (%), single value
+- **PNSD_N_std**: Instrument concentration error/uncertainty (%), single value (e.g. 10% [Frie and Bahreini, 2021])
 
-- **PNSD_D_std**: Instrument sizing uncertainty (%), single value
+- **PNSD_D_std**: Instrument sizing uncertainty (%), single value (e.g. 2.5%, DMT UHSAS sizing uncertainty)

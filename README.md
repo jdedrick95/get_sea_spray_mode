@@ -3,7 +3,7 @@ A MATLAB function to retrieve the sea spray aerosol mode from measured submicron
  
 This code applies a Mie inversion to retrieve lognormal fitting parameters of the sea spray mode using submicron size distributions and supermicron scattering. The code requires the sea spray Mie scattering look-up table (**sea_spray_mie_table.mat**) to be in the same directory as the retrieval code (or accessible from a working directory).
 
-Methodology for this code is described in Dedrick et al. "Retrieval of the Sea Spray Aerosol Mode from Submicron Particle Size Distributions and Supermicron Scattering during LASIC" (submitted to Atmospheric Measurement Techniques)
+Methodology for this code is described in Dedrick et al. "Retrieval of the Sea Spray Aerosol Mode from Submicron Particle Size Distributions and Supermicron Scattering during LASIC" (submitted to *Atmospheric Measurement Techniques*)
  
 **INPUTS:**
 

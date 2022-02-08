@@ -49,6 +49,3 @@ Methodology for this code is described in Dedrick et al. "Retrieval of the Sea S
 
 - **retrieval_duration**: time to complete the retrieval (minutes); row dimension: time
 
-# test.m
-
-- test tex
